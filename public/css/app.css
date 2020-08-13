@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+h1,h2,h3{
+    padding:10px;
+
+}
+
+p{
+    padding:10px;
+}
+
+.container{
+    margin:auto;
+    max-width: 1200px;
+    overflow: auto;
+    padding:0px 20px;
+}
+
+.info-page-content.container2{
+    height: 400px;
+}
+
+#navbar{
+background: #5BE128;
+ overflow: auto;
+}
+
+
+#navbar .logo{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar a{
+    color: #fff;
+}
+
+#navbar .nav-ul a:hover{
+    background: #183F0A ;
+    color: #ECF781;
+}
+
+#navbar .nav-ul li a.active {
+    background: #ECF781;
+    color:  #183F0A;
+}
+
+
+ a{
+    text-decoration: none;
+
+
+}
+
+#navbar .nav-ul{
+    float: right;
+    list-style: none;
+
+}
+
+.nav-ul li{
+    float:left;
+
+}
+
+.nav-ul li a{
+    padding: 20px;
+    text-align: center;
+    display: block;
+}
+
+#info-page{
+    background: url("../imgs/caspar-camille-rubin-0qvBNep1Y04-unsplash.jpg") no-repeat center center;
+    background-size: cover;
+    height: 600px;
+}
+
+.info-page-content{
+    padding-top: 170px;
+    text-align: center;
+    height:100%;
+
+}
+
+.info-page-content h1{
+    color: #fff;
+    font-size: 60px;
+}
+
+.info-page-content p{
+    color: #fff;
+    font-size: 25px;
+}
+.info-page-content span.bg-yellow{
+    color: #ECF781;
+}
+
+.info-page-content span.bg-yellow{
+    color: #ECF781;
+}
+
+.info-page-content a.btn{
+    background: #ECF781;
+    color:#fff;
+    padding: 5px;
+    border-radius: 5px ;
+}
+
+.info-page-content a.btn:hover {
+    background: #f7e95b;
+}
+
