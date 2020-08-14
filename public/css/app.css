@@ -19,12 +19,44 @@ p{
     padding:10px;
 }
 
+/*utility classes*/
 .container{
     margin:auto;
     max-width: 1200px;
     overflow: auto;
     padding:0px 20px;
 }
+
+
+.btn{
+    display: inline-block;
+    background: #ECF781;
+    color:#fff;
+    padding: 5px;
+    border-radius: 5px ;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #f7e95b;
+    color:#C8C8C8;
+}
+
+.btn-dark{
+    background: #f8e96c;
+    color:#fff;
+}
+
+.bg-yellow{
+    color: #ECF781;
+}
+
+
+
+
+
+
 
 .info-page-content.container2{
     height: 400px;
@@ -88,7 +120,7 @@ background: #5BE128;
 .info-page-content{
     padding-top: 170px;
     text-align: center;
-    height:100%;
+
 
 }
 
@@ -100,23 +132,38 @@ background: #5BE128;
 .info-page-content p{
     color: #fff;
     font-size: 25px;
+    margin: 20px 0;
+    line-height: 1.2em;
 }
-.info-page-content span.bg-yellow{
-    color: #ECF781;
+/*below moved to utility class as bg-yellow*/
+/*.info-page-content span.bg-yellow{*/
+/*    color: #ECF781;*/
+/*}*/
+
+/*.info-page-content span.bg-yellow{*/
+/*    color: #ECF781;*/
+/*}*/
+
+
+/* Histo Info*/
+#histo-info{
+    height: 540px;
 }
 
-.info-page-content span.bg-yellow{
-    color: #ECF781;
+
+
+#histo-info .histo-info-image{
+    background: url("../imgs/nadya-fes-eTeUJUFxqqg-unsplash_900_700.jpg") no-repeat;
+    float:left;
+    width: 50%;
+    min-height: 100%;
+
 }
 
-.info-page-content a.btn{
-    background: #ECF781;
-    color:#fff;
-    padding: 5px;
-    border-radius: 5px ;
+#histo-info .histo-info-info-content{
+    float: left;
+    width: 50%;
+    text-align: center;
+    padding: 40px 30px;
+    height:100%
 }
-
-.info-page-content a.btn:hover {
-    background: #f7e95b;
-}
-
