@@ -2,41 +2,49 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="html css website only with ">
-    <meta name="keywords" content="html,css,floats,">
-    <link rel="stylesheet" href="./css/app.css">
+    <meta content="html css website only with " name="description">
+    <meta content="html,css,floats," name="keywords">
+    <link href="./css/app.css" rel="stylesheet">
 
-    <title>Title</title>
+    <title>HTML_CSS | FLOATS</title>
 </head>
 <body>
 
-    <header>
+<header>
+    <nav id="navbar">
+        <div class="container">
+            <a class="logo" href="index.html">ChrisyCode</a>
+            <ul class="nav-ul">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-            <nav id="navbar">
-                <div class="container">
-                    <a href="index.html" class="logo">ChrisyCode</a>
-                    <ul class="nav-ul">
-                        <li><a href="index.html" class="active">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-            </nav>
-
-            <div id="info-page">
-                <div class="container">
-                    <div class="info-page-content container2">
-                        <h1><span class="bg-yellow">Enjoy</span> your Stay</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda dicta distinctio est hic itaque maiores, quo sapiente tempora voluptatum!</p>
-                        <a href="about.html" class="btn">About the Coder</a>
-                    </div>
-                </div>
-
+    <div id="info-page">
+        <div class="container">
+            <div class="info-page-content container2">
+                <h1><span class="bg-yellow">Enjoy</span> your Stay</h1>
+                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores assumenda dicta
+                    distinctio est hic itaque maiores, quo sapiente tempora voluptatum!</p>
+                <a class="btn" href="about.html">About the Coder</a>
             </div>
+        </div>
 
+    </div>
+</header>
 
-
-    </header>
-
+<section id="histo-info">
+    <div class="histo-info-image"></div>
+    <div class="histo-info-info-content">
+        <h2><span class="bg-yellow">The History</span> of the coder</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum debitis deserunt dignissimos doloribus, esse
+            est fuga fugit id in iste neque nesciunt numquam odit officia quia quo saepe sit ut veniam voluptate? Animi
+            distinctio ex id laboriosam repudiandae soluta vel. Dolorum ea fugit, id illo libero, molestias obcaecati
+            pariatur quibusdam quidem, quisquam rem ullam! Accusantium animi esse eum illo laborum?</p>
+        <a href="about.html" class="btn btn-dark">Read more</a>
+    </div>
+</section>
 </body>
 </html>
