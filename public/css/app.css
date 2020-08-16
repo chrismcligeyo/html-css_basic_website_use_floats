@@ -15,9 +15,9 @@ h1, h2, h3 {
 
 }
 
-p {
-    padding: 10px;
-}
+/*p {*/
+/*    padding: 10px;*/
+/*}*/
 
 /*utility classes*/
 .container {
@@ -90,7 +90,7 @@ p {
     padding:  0 2rem;
 }
 
-.p{
+.pdR{
     padding: 1.5rem;
 }
 
@@ -244,17 +244,6 @@ a {
     margin-bottom: 15px;
 }
 
-/*footer*/
-
-#footer-main {
-    text-align: center;
-    /*background: #028910;*/
-    /*background: #03AC13;*/
-    background: #354A21;
-    color: #fff;
-    padding: 20px;
-}
-
 /*about page*/
 /*#about-info {*/
 /*    height:100%;*/
@@ -333,3 +322,54 @@ a {
     width: 70%;
 
 }
+
+
+
+/*contact form*/
+
+#contact_form .form-group {
+    margin-bottom: 15px;
+
+}
+
+#contact_form label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact_form input, #contact_form textarea {
+    width: 100%;
+    border: #ddd solid 1px;
+    padding: 5px;
+
+}
+
+
+#contact_form input:focus, #contact_form textarea:focus {
+    outline: none;
+    border-color: #183F0A;
+
+}
+
+#contact_form textarea {
+    height: 100px;
+}
+
+
+#submit_button{
+    padding: 10px 15px;
+    color: #183F0A;
+}
+
+/*footer*/
+
+#footer-main {
+    text-align: center;
+    /*background: #028910;*/
+    /*background: #03AC13;*/
+    background: #354A21;
+    color: #fff;
+    padding: 20px;
+}
+
+
