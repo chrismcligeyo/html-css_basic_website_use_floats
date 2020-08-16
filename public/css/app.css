@@ -60,6 +60,60 @@ p {
 .bg-dark-white {
     background: #ECEEEB;
 }
+/*heading*/
+.l-heading{
+    font-size:2.4rem;
+}
+
+/*padding*/
+.py{
+     padding: 1.5rem 0;
+ }
+
+.py2{
+    padding: 1.7rem 0;
+}
+
+.py3{
+    padding: 2rem 0;
+}
+
+.px{
+    padding:  0 1.5rem;
+}
+
+.px2{
+    padding:  0 1.7rem;
+}
+
+.px3{
+    padding:  0 2rem;
+}
+
+.p{
+    padding: 1.5rem;
+}
+
+.p2{
+    padding: 1.7rem;
+}
+
+.p3{
+    padding: 2rem;
+}
+
+/*margin*/
+.my{
+    margin: 1.5rem 0;
+}
+
+.my2{
+    margin: 1.7rem 0;
+}
+
+.my3{
+    margin: 2rem 0;
+}
 
 .clr {
     clear: both;
@@ -199,4 +253,83 @@ a {
     background: #354A21;
     color: #fff;
     padding: 20px;
+}
+
+/*about page*/
+/*#about-info {*/
+/*    height:100%;*/
+/*}*/
+
+#about-info .about-info-info{
+    float:left;
+    width:50%;
+    height:100%
+}
+
+#about-info .about-info-img {
+    float:left;
+    width:50%;
+    height:100%
+
+}
+
+#about-info .about-info-img img{
+    display:block;
+    margin:auto;
+    width: 60%;
+    border-radius: 50%;
+}
+
+/*testimonials*/
+#user-testimonials{
+
+    height:600px;
+    background: url('../imgs/caspar-camille-rubin-7SDoly3FV_0-unsplash.jpg') no-repeat center/cover;
+    padding-top: 40px;
+
+}
+
+#user-testimonials h2{
+    color:#fff;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.user-testimonials1{
+     overflow:auto;
+    border: none;
+    border-radius: 10px;
+ }
+
+.user-testimonials2{
+    overflow:auto;
+    border: none;
+    border-radius: 10px;
+}
+
+#user-testimonials .user-testimonials1 img{
+    float:left;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+#user-testimonials .user-testimonials1 p{
+    float:left;
+    width: 70%;
+
+
+}
+
+#user-testimonials .user-testimonials2 img{
+    float:left;
+    width: 100px;
+    border-radius: 50%;
+
+}
+
+#user-testimonials .user-testimonials2 p{
+    float:left;
+    width: 70%;
+
 }
