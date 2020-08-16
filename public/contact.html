@@ -2,9 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta content="html css website only with " name="description">
+    <meta content="html,css,floats," name="keywords">
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+          integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" rel="stylesheet">
+    <link href="./css/app.css" rel="stylesheet">
+
+    <title>HTML_CSS | FLOATS</title>
 </head>
 <body>
 
+<header>
+    <nav id="navbar">
+        <div class="container">
+            <a class="logo" href="index.html">ChrisyCode</a>
+            <ul class="nav-ul">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<section id="contact_form">
+
+    <div class="container">
+        <h1 class="l-heading"><span class=" bg-yellow">Contact</span> Us</h1>
+        <p>To contact us please fill in the form</p>
+        <form action="">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text">
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" type="text"></textarea>
+            </div>
+
+            <button class="btn" id="submit_button" type="submit">Submit</button>
+
+        </form>
+    </div>
+
+</section>
+
+<section id="contact_info" class="bg-seaweed-green">
+    <div class="container">
+        <div class="box">
+            <i class="fa fa-map-marker fa-3x" aria-hidden="true"></i>
+            <h3>Location</h3>
+            <p>Karen, Nairobi, Kenys</p>
+        </div>
+        <div class="box ">
+            <i class="fa fa-mobile fa-3x" aria-hidden="true"></i>
+            <h3>Phone Number</h3>
+            <p>+2547111111114.</p>
+        </div>
+        <div class="box">
+            <i class="fa fa-envelope fa-3x" aria-hidden="true"></i>
+            <h3>Email</h3>
+            <p>coder@gmil.com.</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<footer id="footer-main">
+    <p>Chris Codex &copy; 2020, All Rights Reserved </p>
+
+</footer>
 </body>
 </html>
+
